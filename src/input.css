@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(41, 41, 41);
+    color: rgb(248, 234, 203);
+}
+
+.dynamic-font {
+    font-size: clamp(0.75rem, 1vw + 0.5rem, 1.5rem); /* min size, preferred size, max size */
+}
